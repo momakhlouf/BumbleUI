@@ -11,6 +11,8 @@
 		A8810AF12BFDF4AC00958E47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810AF02BFDF4AC00958E47 /* ContentView.swift */; };
 		A8810AF32BFDF4AE00958E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8810AF22BFDF4AE00958E47 /* Assets.xcassets */; };
 		A8810AF62BFDF4AE00958E47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8810AF52BFDF4AE00958E47 /* Preview Assets.xcassets */; };
+		A8810AFF2BFE07C100958E47 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810AFE2BFE07C100958E47 /* HomeView.swift */; };
+		A8810B052BFE0A6C00958E47 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B042BFE0A6C00958E47 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A8810AF02BFDF4AC00958E47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8810AF22BFDF4AE00958E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8810AF52BFDF4AE00958E47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8810AFE2BFE07C100958E47 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A8810B042BFE0A6C00958E47 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				A8810AEE2BFDF4AC00958E47 /* BumbleUIApp.swift */,
 				A8810AF02BFDF4AC00958E47 /* ContentView.swift */,
+				A8810B002BFE07CD00958E47 /* Components */,
+				A8810AFC2BFE07A600958E47 /* Core */,
 				A8810AF22BFDF4AE00958E47 /* Assets.xcassets */,
 				A8810AF42BFDF4AE00958E47 /* Preview Content */,
 			);
@@ -65,6 +71,54 @@
 				A8810AF52BFDF4AE00958E47 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8810AFC2BFE07A600958E47 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A8810B032BFE09D000958E47 /* View */,
+				A8810B022BFE09CD00958E47 /* Model */,
+				A8810B012BFE09C800958E47 /* ViewModel */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A8810AFD2BFE07AD00958E47 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A8810AFE2BFE07C100958E47 /* HomeView.swift */,
+				A8810B042BFE0A6C00958E47 /* HeaderView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A8810B002BFE07CD00958E47 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A8810B012BFE09C800958E47 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8810B022BFE09CD00958E47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8810B032BFE09D000958E47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8810AFD2BFE07AD00958E47 /* Home */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +191,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8810AFF2BFE07C100958E47 /* HomeView.swift in Sources */,
 				A8810AF12BFDF4AC00958E47 /* ContentView.swift in Sources */,
 				A8810AEF2BFDF4AC00958E47 /* BumbleUIApp.swift in Sources */,
+				A8810B052BFE0A6C00958E47 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
