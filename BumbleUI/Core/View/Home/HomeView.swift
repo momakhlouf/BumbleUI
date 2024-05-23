@@ -16,11 +16,8 @@ struct HomeView: View {
             VStack(spacing: 12){
                 HeaderView()
                 FilterView(options: HomeFilter.allCases, selection: $SelectedFilter)
-                    
-                    .background(
-                       
-                        Divider(), alignment: .bottom
-                    )
+                    .background(Divider(), alignment: .bottom)
+                CardView(user: User.mock)
                 Spacer()
             }
             .padding(8)

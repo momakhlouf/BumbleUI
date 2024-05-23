@@ -14,6 +14,18 @@
 		A8810AFF2BFE07C100958E47 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810AFE2BFE07C100958E47 /* HomeView.swift */; };
 		A8810B052BFE0A6C00958E47 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B042BFE0A6C00958E47 /* HeaderView.swift */; };
 		A8810B072BFE21A000958E47 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B062BFE21A000958E47 /* FilterView.swift */; };
+		A8810B092BFF34E300958E47 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B082BFF34E300958E47 /* CardView.swift */; };
+		A8810B0C2BFF373300958E47 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B0A2BFF373300958E47 /* Constants.swift */; };
+		A8810B0D2BFF373300958E47 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B0B2BFF373300958E47 /* ImageLoaderView.swift */; };
+		A8810B102BFF376800958E47 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A8810B0F2BFF376800958E47 /* SDWebImageSwiftUI */; };
+		A8810B132BFF382B00958E47 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B112BFF382B00958E47 /* Product.swift */; };
+		A8810B142BFF382B00958E47 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B122BFF382B00958E47 /* User.swift */; };
+		A8810B162BFF3F2100958E47 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B152BFF3F2100958E47 /* HeartView.swift */; };
+		A8810B182BFF421F00958E47 /* FrameReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B172BFF421F00958E47 /* FrameReader.swift */; };
+		A8810B1A2BFF509100958E47 /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B192BFF509100958E47 /* PillView.swift */; };
+		A8810B1C2BFF557C00958E47 /* PillGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B1B2BFF557C00958E47 /* PillGridView.swift */; };
+		A8810B1F2BFF685B00958E47 /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = A8810B1E2BFF685B00958E47 /* SwiftfulUI */; };
+		A8810B212BFF73ED00958E47 /* ReactButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8810B202BFF73ED00958E47 /* ReactButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +37,16 @@
 		A8810AFE2BFE07C100958E47 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A8810B042BFE0A6C00958E47 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		A8810B062BFE21A000958E47 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		A8810B082BFF34E300958E47 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A8810B0A2BFF373300958E47 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A8810B0B2BFF373300958E47 /* ImageLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
+		A8810B112BFF382B00958E47 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A8810B122BFF382B00958E47 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A8810B152BFF3F2100958E47 /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
+		A8810B172BFF421F00958E47 /* FrameReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameReader.swift; sourceTree = "<group>"; };
+		A8810B192BFF509100958E47 /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
+		A8810B1B2BFF557C00958E47 /* PillGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillGridView.swift; sourceTree = "<group>"; };
+		A8810B202BFF73ED00958E47 /* ReactButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8810B1F2BFF685B00958E47 /* SwiftfulUI in Frameworks */,
+				A8810B102BFF376800958E47 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +115,7 @@
 				A8810AFE2BFE07C100958E47 /* HomeView.swift */,
 				A8810B042BFE0A6C00958E47 /* HeaderView.swift */,
 				A8810B062BFE21A000958E47 /* FilterView.swift */,
+				A8810B082BFF34E300958E47 /* CardView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -98,6 +123,13 @@
 		A8810B002BFE07CD00958E47 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				A8810B172BFF421F00958E47 /* FrameReader.swift */,
+				A8810B0A2BFF373300958E47 /* Constants.swift */,
+				A8810B0B2BFF373300958E47 /* ImageLoaderView.swift */,
+				A8810B152BFF3F2100958E47 /* HeartView.swift */,
+				A8810B192BFF509100958E47 /* PillView.swift */,
+				A8810B1B2BFF557C00958E47 /* PillGridView.swift */,
+				A8810B202BFF73ED00958E47 /* ReactButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -112,6 +144,8 @@
 		A8810B022BFE09CD00958E47 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A8810B112BFF382B00958E47 /* Product.swift */,
+				A8810B122BFF382B00958E47 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,6 +174,10 @@
 			dependencies = (
 			);
 			name = BumbleUI;
+			packageProductDependencies = (
+				A8810B0F2BFF376800958E47 /* SDWebImageSwiftUI */,
+				A8810B1E2BFF685B00958E47 /* SwiftfulUI */,
+			);
 			productName = BumbleUI;
 			productReference = A8810AEB2BFDF4AC00958E47 /* BumbleUI.app */;
 			productType = "com.apple.product-type.application";
@@ -168,6 +206,10 @@
 				Base,
 			);
 			mainGroup = A8810AE22BFDF4AC00958E47;
+			packageReferences = (
+				A8810B0E2BFF376800958E47 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				A8810B1D2BFF685B00958E47 /* XCRemoteSwiftPackageReference "SwiftfulUI" */,
+			);
 			productRefGroup = A8810AEC2BFDF4AC00958E47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -196,8 +238,18 @@
 			files = (
 				A8810AFF2BFE07C100958E47 /* HomeView.swift in Sources */,
 				A8810AF12BFDF4AC00958E47 /* ContentView.swift in Sources */,
+				A8810B162BFF3F2100958E47 /* HeartView.swift in Sources */,
+				A8810B132BFF382B00958E47 /* Product.swift in Sources */,
 				A8810AEF2BFDF4AC00958E47 /* BumbleUIApp.swift in Sources */,
+				A8810B1A2BFF509100958E47 /* PillView.swift in Sources */,
 				A8810B072BFE21A000958E47 /* FilterView.swift in Sources */,
+				A8810B212BFF73ED00958E47 /* ReactButton.swift in Sources */,
+				A8810B182BFF421F00958E47 /* FrameReader.swift in Sources */,
+				A8810B0C2BFF373300958E47 /* Constants.swift in Sources */,
+				A8810B0D2BFF373300958E47 /* ImageLoaderView.swift in Sources */,
+				A8810B092BFF34E300958E47 /* CardView.swift in Sources */,
+				A8810B1C2BFF557C00958E47 /* PillGridView.swift in Sources */,
+				A8810B142BFF382B00958E47 /* User.swift in Sources */,
 				A8810B052BFE0A6C00958E47 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +456,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A8810B0E2BFF376800958E47 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+		A8810B1D2BFF685B00958E47 /* XCRemoteSwiftPackageReference "SwiftfulUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A8810B0F2BFF376800958E47 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8810B0E2BFF376800958E47 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		A8810B1E2BFF685B00958E47 /* SwiftfulUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8810B1D2BFF685B00958E47 /* XCRemoteSwiftPackageReference "SwiftfulUI" */;
+			productName = SwiftfulUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A8810AE32BFDF4AC00958E47 /* Project object */;
 }
