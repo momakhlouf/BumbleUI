@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var SelectedFilter: HomeFilter = .everyone
     var body: some View {
         ZStack{
             Color.bumbleWhite.ignoresSafeArea()
             
-            VStack{
+            VStack(spacing: 12){
                 HeaderView()
-                    .frame(maxHeight: .infinity,alignment: .top)
+                FilterView(options: HomeFilter.allCases, selection: $SelectedFilter)
+                    
+                    .background(
+                       
+                        Divider(), alignment: .bottom
+                    )
+                Spacer()
             }
+            .padding(8)
         }
     }
 }
@@ -23,3 +31,5 @@ struct HomeView: View {
 #Preview {
     HomeView()
 }
+
+ 
